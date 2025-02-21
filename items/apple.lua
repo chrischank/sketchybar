@@ -14,22 +14,11 @@ local apple = sbar.add("item", {
   },
   label = { drawing = false },
   background = {
-    color = colors.bg2,
-    border_color = colors.black,
-    border_width = 1
+    color = colors.with_alpha(colors.darkblue, 0.6),
   },
   padding_left = 1,
   padding_right = 1,
   click_script = "$CONFIG_DIR/helpers/menus/bin/menus -s 0"
-})
-
--- Double border for apple using a single item bracket
-sbar.add("bracket", { apple.name }, {
-  background = {
-    color = colors.transparent,
-    height = 17,
-    border_color = colors.grey,
-  }
 })
 
 -- Padding item required because of bracket

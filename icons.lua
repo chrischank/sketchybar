@@ -50,7 +50,7 @@ local icons = {
     gear = "",
     cpu = "",
     clipboard = "Missing Icon",
-
+    clock = "􀐬",
     switch = {
       on = "󱨥",
       off = "󱨦",

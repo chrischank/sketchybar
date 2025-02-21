@@ -11,6 +11,9 @@ return {
   transparent = 0x00000000,
   darkblue = 0xff08131a,
   softorange = 0xffdeb88d,
+  selection = 0xfffba02f,
+  lightblue = 0xffe9fffc,
+  lightblue2 = 0xffc2f3fd,
 
   bar = {
     bg = 0xff08131a,

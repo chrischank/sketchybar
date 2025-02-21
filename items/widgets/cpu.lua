@@ -15,7 +15,7 @@ local cpu = sbar.add("graph", "widgets.cpu" , 42, {
     border_color = { alpha = 0 },
     drawing = true,
   },
-  icon = { string = icons.cpu },
+  icon = { string = icons.cpu , color = colors.lightblue2},
   label = {
     string = "cpu ??%",
     font = {
@@ -59,7 +59,7 @@ end)
 
 -- Background around the cpu item
 sbar.add("bracket", "widgets.cpu.bracket", { cpu.name }, {
-  background = { color = colors.bg1 }
+  background = { color = colors.with_alpha(colors.darkblue, 0.6) }
 })
 
 -- Background around the cpu item
